@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "tsx src/index.ts",
-    "watch": "nodemon --exec tsx src/index.ts"
+    "watch": "nodemon --exec tsx src/index.ts",
+    "chat": "tsx src/nvidia-client.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.1",
     "axios": "^1.11.0",
-    "dotenv": "^17.2.1"
+    "dotenv": "^17.2.1",
+    "readline": "^1.3.0"
   }
 }
